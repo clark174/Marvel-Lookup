@@ -1,3 +1,6 @@
+#ifndef YEARINDEX_H
+#define YEARINDEX_H
+
 #include <iostream>
 #include <fstream>
 #include <sstream>
@@ -19,3 +22,5 @@ class yearIndex
   private:
     map<string, vector<int> > refs;//maps from a string containing a year to an int vector.
 };
+
+#endif
