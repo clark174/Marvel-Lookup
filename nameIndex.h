@@ -1,3 +1,6 @@
+#ifndef NAMEINDEX_H
+#define NAMEINDEX_H
+
 #include <iostream>
 #include <fstream>
 #include <sstream>
@@ -17,3 +20,5 @@ class nameIndex
   private:
     map<string, vector<int> > refs;//maps from character names to an int vector.
 };
+
+#endif
