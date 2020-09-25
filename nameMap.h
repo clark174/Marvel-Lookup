@@ -1,3 +1,6 @@
+#ifndef NAMEMAP_H
+#define NAMEMAP_H
+
 #include <iostream>
 #include <fstream>
 #include <sstream>
@@ -17,3 +20,5 @@ class nameMap
   private:
     vector <characters> characterList;//vector to store the characters.
 };
+
+#endif
